@@ -1,11 +1,10 @@
 import os
-import gdown
 import torch
 import timm
 from flask import Flask, request, jsonify
 from torchvision import transforms
 from PIL import Image
-import gdown
+import gdown 
 
 
 # Flask setup
